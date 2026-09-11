@@ -1,4 +1,4 @@
-<img width="2534" height="1231" alt="image" src="https://github.com/user-attachments/assets/8db164e4-e3cb-4fc1-9302-521d99b9f13a" /># AI Landing Page CRO Agent
+# AI Landing Page CRO Agent
 
 A simple AI-powered Conversion Rate Optimization (CRO) auditor.
 
