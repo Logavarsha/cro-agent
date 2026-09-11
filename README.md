@@ -183,8 +183,3 @@ OPENAI_MODEL
 ### 🚀 CRO Agent
 
 [https://cro-agent-vcmx.onrender.com/](https://cro-agent-vcmx.onrender.com/)
-
----
-
-```
-
