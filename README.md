@@ -110,7 +110,7 @@ http://localhost:5000
 
 # 🔌 API
 
-## ❤️ Health Check
+##  Health Check
 
 ```http
 GET /api/health
@@ -190,5 +190,3 @@ OPENAI_MODEL
 
 ```
 
-This keeps **only your requested content**, while making the README look much more professional with **icons, hierarchy, badges-style presentation, tables, code blocks, and clean GitHub formatting**.
-```
