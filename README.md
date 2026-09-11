@@ -108,8 +108,6 @@ http://localhost:5000
 
 ---
 
-# 🔌 API
-
 ##  Health Check
 
 ```http
