@@ -1,4 +1,4 @@
-# AI Landing Page CRO Agent
+<img width="2534" height="1231" alt="image" src="https://github.com/user-attachments/assets/8db164e4-e3cb-4fc1-9302-521d99b9f13a" /># AI Landing Page CRO Agent
 
 A simple AI-powered Conversion Rate Optimization (CRO) auditor.
 
@@ -58,8 +58,7 @@ python app.py
 
 Open:
 
-http://localhost:5000
-
+https://cro-agent-vcmx.onrender.com/
 ## Notes
 
 The first version uses requests + BeautifulSoup. Some Shopify/modern JavaScript websites may block simple HTTP fetching or render important content only in the browser. For those sites, add Playwright as a next step.
