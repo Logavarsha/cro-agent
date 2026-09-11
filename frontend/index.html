@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRO Agent - AI Conversion Audit</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">✦ CRO Agent</div>
+    <div class="badge">AI Conversion Optimization</div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow">AI-POWERED CRO AUDITOR</div>
+      <h1>Turn Your Website Into More <span>Conversions</span></h1>
+      <p>
+        Enter a product or landing page URL. Our AI analyzes the page and
+        identifies practical opportunities to improve conversion.
+      </p>
+
+      <form id="analyzeForm" class="url-form">
+        <input
+          id="urlInput"
+          type="url"
+          placeholder="https://store.com/products/example-product"
+          required
+        />
+        <button id="analyzeBtn" type="submit">Analyze Page →</button>
+      </form>
+
+      <div class="example">
+        Example: https://example-store.com/products/example-product
+      </div>
+    </section>
+
+    <section id="loading" class="loading hidden">
+      <div class="spinner"></div>
+      <div>
+        <strong>Analyzing webpage...</strong>
+        <p>Fetching page content and asking the AI CRO analyst to review it.</p>
+      </div>
+    </section>
+
+    <section id="errorBox" class="error hidden"></section>
+
+    <section id="report" class="hidden">
+      <div class="report-header">
+        <div>
+          <div class="eyebrow">CRO AUDIT REPORT</div>
+          <h2 id="pageTitle">Page Analysis</h2>
+          <a id="pageUrl" href="#" target="_blank" rel="noopener"></a>
+        </div>
+        <div class="score-card">
+          <span>CRO SCORE</span>
+          <strong id="score">--</strong>
+          <small>/ 100</small>
+        </div>
+      </div>
+
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">🎯</div>
+          <h3>Hero Analysis</h3>
+          <p id="heroAnalysis"></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>CTA Quality</h3>
+          <p id="ctaQuality"></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🛡️</div>
+          <h3>Trust Signals</h3>
+          <p id="trustSignals"></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📦</div>
+          <h3>Product Page Issues</h3>
+          <ul id="productIssues"></ul>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📱</div>
+          <h3>Mobile UX</h3>
+          <p id="mobileUx"></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">✍️</div>
+          <h3>Copy & Message Clarity</h3>
+          <p id="copyClarity"></p>
+        </article>
+      </div>
+
+      <div class="two-column">
+        <article class="card">
+          <div class="section-title">
+            <h3>🚧 Friction Points</h3>
+          </div>
+          <ul id="frictionPoints"></ul>
+        </article>
+
+        <article class="card">
+          <div class="section-title">
+            <h3>🚀 Recommended Improvements</h3>
+          </div>
+          <div id="recommendations"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
